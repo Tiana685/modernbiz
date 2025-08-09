@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ModernBiz - Your trusted business solution provides">
+    <title>ModernBiz - Contact</title>
+    <link rel="icon" href="images/favicon.ico (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossergin>
+    <link rel="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="Logo">
+                <img src="images/logo.png" alt="ModernBiz Logo" width="100">
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <main>
+         <section class="page hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.png');">
+           <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+           </div> 
+        </section>
+
+        <section class="contact section-padding">
+            <div class="container">
+                <div class="contact__content">
+                    <div class="contact__form">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name <span aria-hidden="true">*</span></label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" Phone Number></label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="consulting">Business Consulting</option>
+                                    <option value="marketing"> Digital Marketing</option>
+                                    <option value="development">Web Development</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Message">Your Message<span aria-hidden="true">*</span></label>
+                                <textarea id="Message" name="message" rows="5" required aria-required="true"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact__info">
+                        <h2>Contact Information</h2>
+                        <address>
+                            <div class="contact-methed">
+                                <h3>Address</h3>
+                                <p>123 Business Location<br>Abuja, fct 00000</p>
+                            </div>
+                            <div class="contact-methed">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+2341234567">(+) 123-45678</a></p>
+
+                            </div>
+                            <div class="contact-methed">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@modernbiz.com">info@modernbiz.com</a></p>
+                            </div>
+                            <div class="contact-methed">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9am - 6pm<br>
+                                Saturday: 10am - 2pm<br></p>
+                            </div>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126093.84170367473!2d7.367465888374673!3d9.02424682075489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e745f4cd62fd9%3A0x53bd17b4a20ea12b!2sAbuja%Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1752504756209!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+     </main>
+
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__about">
+                    <img src="images/logo.png" alt="ModernBiz Logo" width="120">
+                    <p>Business thrive in our capable hands and modern technicsat your finger tips.</p>
+                </div>
+                <div class="footer__link">
+                    <h3>Quick Links</h3>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact Us</h3>
+                <address>
+                    <p>685 up town Abuja, fct 01006</p>
+                    <p>Phone: +234-business</p>
+                    <p>Email: info@modernbiz.com</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2020 T.tech. All right reserved.</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
